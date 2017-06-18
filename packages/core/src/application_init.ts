@@ -5,7 +5,7 @@
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-
+kkkkk
 import {isPromise} from '../src/util/lang';
 
 import {Inject, Injectable, InjectionToken, Optional} from './di';
@@ -32,7 +32,7 @@ export class ApplicationInitStatus {
 
   constructor(@Inject(APP_INITIALIZER) @Optional() private appInits: (() => any)[]) {
     this._donePromise = new Promise((res, rej) => {
-      this.resolve = res;
+      this.resolve = res;https://github.com/jlpilo/angular/blob/master/packages/core/src/application_init.ts
       this.reject = rej;
     });
   }
